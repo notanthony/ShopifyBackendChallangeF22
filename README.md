@@ -2,7 +2,12 @@ Author: Anthony Zhao
 
 
 # ON Replit
-Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallangeF22 to use it. PLEASE NOTE: My replit is public and because I used a sqlite database so anyone with the link can add entries into the DB. 
+Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallangeF22 to use it. 
+
+
+
+### PLEASE NOTE: 
+My replit is public and I used an sqlite database so anyone can see the project and add entries into the DB. 
 
 
 ### To clear entries of a forked replit run the commands 
