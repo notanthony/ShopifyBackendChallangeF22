@@ -8,7 +8,7 @@ Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallangeF
 ### To clear entries of a forked replit run the commands 
 
 
-rails c 
+bin/rails c 
 
 
 Item.delete_all
