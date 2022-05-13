@@ -41,7 +41,10 @@ Navigate to the directory this project is in the terminal
 cd /project/dir
 
 
-type
+run the following commands in the terminal
+
+
+git checkout ruby3version
 
 
 rails s
