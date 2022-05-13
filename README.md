@@ -7,7 +7,7 @@ Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallangeF
 
 
 ### PLEASE NOTE: 
-My replit is public and I used an sqlite database so anyone can see the project and add entries into the DB. 
+My replit is public and I used an sqlite database. Meaning anyone can add entries into the DB. 
 
 
 ### To clear entries of a forked replit run the commands 
