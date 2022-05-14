@@ -22,7 +22,7 @@ Item.delete_all
 ### Preamble:
 
 
-Orginally this was written for ruby 3.1.2 (see below) but Replit uses a very old version of ruby. So I copied over my files into the replit base framework since I would have had to move my files into an older version regardless. Here is a link to the replit framework I forked https://replit.com/@replit/Rails-legacy. This github repo does not work when imported into replit even though it was download directly from replit. Instead fork my replit.
+Orginally this was written for ruby 3.1.2 (see below) but Replit uses ruby 2.5.1 So I copied over my files into the replit base framework since I would have had to move my files into an older version regardless. Here is a link to the replit framework I forked https://replit.com/@replit/Rails-legacy. This github repo does not work when imported into replit even though it was download directly from replit. Instead fork my replit.
 
 
 
