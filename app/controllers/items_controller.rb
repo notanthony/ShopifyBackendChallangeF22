@@ -35,7 +35,7 @@ class ItemsController < ApplicationController
     end
   end
 
-  # UNDELETE /items/1 or /items/1.json
+  # GET /items/1/restore or /items/1/restore.json
   def restore
     respond_to do |format|
       if AppServices::DiscardableRecordRestorer.call(@item)
