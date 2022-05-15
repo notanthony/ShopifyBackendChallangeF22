@@ -1,10 +1,8 @@
 Author: Anthony Zhao
 
 
-# ON Replit
-Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallengeF22?v=1 to use it. 
-
-
+# Replit Instructions
+To use this replit repo on replit you have to fork this https://replit.com/@notanthony1/ShopifyBackendFall2022
 
 ### PLEASE NOTE: 
 My replit is public and I used an sqlite database. Meaning anyone can add entries into the DB. 
