@@ -1,16 +1,52 @@
 Author: Anthony Zhao
+### Preface
 
 
-# ON Replit
-Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallengeF22?v=1 to use it. 
+Orginally this was written for ruby 3.1.2 but Replit uses ruby 2.5.5. Since I had to move my files into an older version, I copied my files into the Replit base framework, https://replit.com/@replit/Rails-legacy, to ensure my Replit would run. For this reason, the Github code may not run on Replit and the code from Replit may not run on Github. For specifc usage instructions please see the sections below.
+
+I made modifications (rest are from the templates I used) in the following files
+
+###### app
 
 
-
-### PLEASE NOTE: 
-My replit is public and I used an sqlite database. Meaning anyone can add entries into the DB. 
+-> controllers -> items_controller.rb
 
 
-### To clear entries of a forked replit run the commands 
+-> services -> all files
+
+
+-> model -> item.rb
+
+
+###### db
+
+
+-> migrate -> all files
+
+
+-> schema.rb
+
+
+###### config 
+
+-> routes.rb
+
+
+### Replit 
+
+###### Introduction
+
+The main branch is a download of the code from Replit. Although I downloaded the code directly from Replit it does not import back into Replit properly. 
+
+
+###### Replit Usage
+
+
+In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyBackendFall2022. You can also fork my replit if you want to modify it.
+
+###### Forked Replits 
+
+I used a SQLite database and the replit is public so anyone can add entries into the DB. These DB changes may persit in the forked version. If you want to clear the DB run the following commands.
 
 
 bin/rails c 
@@ -19,20 +55,16 @@ bin/rails c
 Item.delete_all
 
 
-### Preamble:
+### PC Usage
+
+###### Introduction
+
+I used the default ruby framework to start off the project "rails g scaffold items name"
 
 
-Orginally this was written for ruby 3.1.2 (see below) but Replit uses a very old version of ruby. So I copied over my files into the replit base framework since I would have had to move my files into an older version regardless. Here is a link to the replit framework I forked https://replit.com/@replit/Rails-legacy. This github repo does not work when imported into replit even though it was download directly from replit. Instead fork my replit.
+For this project you will need ruby 3.1.2 and Rails 7.0.3 and you need to clone the repo and switch to the ruby3version!
 
-
-
-
-# ON Computer
-
-NOTE: I used the default ruby framework to start off the project "rails g scaffold items name"
-
-
-For this project you will need ruby 3.1.2 and Rails 7.0.3 (use the ruby3version branch) 
+###### Usage
 
 
 Navigate to the directory this project is in the terminal
@@ -48,70 +80,5 @@ git checkout ruby3version
 
 
 rails s
-
-
-# Other notes
-I made modifications (rest are from the templates I used) in the following files
-
-### app
-
-
--> controllers -> items_controller.rb
-
-
--> services -> all files
-
-
--> model -> item.rb
-
-
-### db
-
-
--> migrate -> all files
-
-
--> schema.rb
-
-
-### config 
-
--> routes.rb
-
-
-
-
-### ------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-# Rails on Replit
-
-This is a template to get you started with Rails on Replit. It's ready to go so you can just hit run and start coding!
-
-This template was generated using `rails new` (after you install the `rails` gem from the packager sidebar) so you can always do that if you prefer to set it up from scratch. The only had two make config changes we had to make to run it on Replit:
-
-- bind the app on `0.0.0.0` instead of `localhost` (see `.replit`)
-- allow all hosts (see `config/environments/development.rb`)
-- allow the app to be iframed (see `config/application.rb`)
-
-## Running the app
-
-Simple hit run! You can edit the run command from the `.replit` file.
-
-## Running commands
-
-Start every command with `bundle exec` so that it runs in the context of the installed gems environment. The console pane will give you output from the server but you can run arbitrary command from the shell without stopping the server.
-
-## Database
-
-SQLite would work in development but we don't recommend running it in production. Instead look into using the built-in [Replit database](http://docs.replit.com/misc/database). Otherwise you are welcome to connect databases from your favorite provider. 
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Alternatively you can [ask in the community](https://replit.com/talk/ask). Feel free to report bugs [here](https://replit.com/bugs) and give us feedback [here](https://replit.com/feedback).
 
 
