@@ -67,7 +67,7 @@ For this project you will need ruby 3.1.2 and Rails 7.0.3 and you need to clone 
 ###### Usage
 
 
-Navigate to the directory this project is in the terminal
+Navigate to the directory this project is in using the terminal
 
 
 cd /project/dir
